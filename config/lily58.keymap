@@ -51,13 +51,13 @@
 
 		raise_layer {
 // ------------------------------------------------------------------------------------------------------------
-// |       |     |     |      |      |      |                   |      |       |       |      |       |       |
+// |       |     |     |      |      |      |                   |      |       |       |      |       |  DEL  |
 // |       |     |     |      |      |      |                   |      |       |   /   |   *  |   +   |   -   |
 // |  HOME |     |     |      |      |      |                   |      |   ^   |       |      |       | EQUAL |
 // |  END  |     |     |      |      |      |        |  |BT CLR |  <-  |   v   |   ->  |      |       |   \   |
 //                     |      |      |      |        |  |       |      |  BTCLR|       |
 			bindings = <
-&trans    &trans &trans &trans  &trans  &trans                       &trans      &trans    &trans    &trans   &trans    &trans
+&trans    &trans &trans &trans  &trans  &trans                       &trans      &trans    &trans    &trans   &trans    &kp DEL
 &trans    &trans &trans &trans  &trans  &trans                       &trans      &trans    &kp KP_DIVIDE    &kp KP_MULTIPLY   &kp KP_PLUS    &kp KP_SUBTRACT
 &kp HOME  &trans &trans &trans  &trans  &trans                       &trans      &kp UP    &trans    &trans   &trans    &kp EQUAL
 &kp END   &trans &trans &trans  &trans  &trans    &trans   &bt BT_CLR &kp LEFT    &kp DOWN  &kp RIGHT &trans   &trans    &kp BSLH
